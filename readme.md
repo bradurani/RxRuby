@@ -47,7 +47,7 @@ someSource
 
 ## Why Rx.rb? ##
 
-The overall goal of [Rx.rb](https://github.com/Reactive-Extensions/Rx.rb) is to have a push based version of the [Enumerable module](http://www.ruby-doc.org/core-2.1.0/Enumerable.html) with an added notion of time.  Right now, the [Observable module](http://ruby-doc.org/stdlib-1.9.3/libdoc/observer/rdoc/Observable.html) is not quite what we want because it does not allow for composition.  That is no more than a simple implementation of the Subject/Observer pattern from the Gang of Four book, such as the following.
+The overall goal of [Rx.rb](https://github.com/Reactive-Extensions/Rx.rb) is to have a push based version of the [Enumerable module](http://www.ruby-doc.org/core-2.1.0/Enumerable.html) with an added notion of time.  Right now, the [Observable module](http://ruby-doc.org/stdlib-1.9.3/libdoc/observer/rdoc/Observable.html) is not quite what we want because it does not allow for composition.  That is no more than a simple implementation of the Subject/Observer pattern from the [Gang of Four book](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented-ebook/dp/B000SEIBB8), such as the following.
 
 ```ruby
 require 'observer'
